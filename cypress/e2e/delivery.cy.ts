@@ -1,9 +1,10 @@
 const apiUrl = 'https://api.mathem.io/mh-test-assignment/delivery';
+const appUrl = 'http://localhost:4173/delivery-app/';
 
 describe('template spec', () => {
   beforeEach(() => {
     // run against vite preview server
-    cy.visit('http://localhost:4173/');
+    cy.visit(appUrl);
 
     cy.intercept('GET', `${apiUrl}/dates`, { fixture: 'dates.json' }).as('getDates');
     cy.intercept('GET', `${apiUrl}/times/*`, { fixture: 'times.json' }).as('getTimes');

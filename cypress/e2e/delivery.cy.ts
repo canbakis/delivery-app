@@ -42,7 +42,6 @@ describe('template spec', () => {
   });
 
   it('should be able to select a delivery time for the selected delivery date', () => {
-    cy.wait('@getDates');
     cy.wait('@getTimes');
     cy.get('[data-testid="delivery-time-selector"] > button').eq(1).click();
     cy.get('[data-testid="delivery-time-selector"] > button')

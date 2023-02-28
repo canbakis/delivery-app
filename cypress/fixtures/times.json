@@ -1,0 +1,65 @@
+[
+  {
+    "deliveryTimeId": "8c3a4409-d6b8-447a-8b0c-90001d83e06e",
+    "deliveryDate": "2023-03-01",
+    "startTime": "13:00",
+    "stopTime": "15:00",
+    "inHomeAvailable": false
+  },
+  {
+    "deliveryTimeId": "45a6cf41-421b-4228-8b66-a07411e3d7cf",
+    "deliveryDate": "2023-03-01",
+    "startTime": "13:00",
+    "stopTime": "15:00",
+    "inHomeAvailable": true
+  },
+  {
+    "deliveryTimeId": "6cc97df0-1693-41e5-841c-0d7e5008155f",
+    "deliveryDate": "2023-03-01",
+    "startTime": "13:00",
+    "stopTime": "15:00",
+    "inHomeAvailable": true
+  },
+  {
+    "deliveryTimeId": "1fe5697a-cbff-4f8b-b8ca-e8ccb6ae2651",
+    "deliveryDate": "2023-03-01",
+    "startTime": "21:00",
+    "stopTime": "23:00",
+    "inHomeAvailable": false
+  },
+  {
+    "deliveryTimeId": "15326272-1966-418a-89a5-84d2a2230910",
+    "deliveryDate": "2023-03-01",
+    "startTime": "19:00",
+    "stopTime": "21:00",
+    "inHomeAvailable": false
+  },
+  {
+    "deliveryTimeId": "310564c4-c73d-4dd6-81f8-0bd1afd9dc8b",
+    "deliveryDate": "2023-03-01",
+    "startTime": "21:00",
+    "stopTime": "23:00",
+    "inHomeAvailable": true
+  },
+  {
+    "deliveryTimeId": "0fcf3d84-b301-43d6-956c-75c1f4bc1807",
+    "deliveryDate": "2023-03-01",
+    "startTime": "18:00",
+    "stopTime": "20:00",
+    "inHomeAvailable": true
+  },
+  {
+    "deliveryTimeId": "b4329fe4-63be-45ba-bcce-d3709737e9e8",
+    "deliveryDate": "2023-03-01",
+    "startTime": "10:00",
+    "stopTime": "12:00",
+    "inHomeAvailable": false
+  },
+  {
+    "deliveryTimeId": "0138c56f-7f75-432e-8948-dbd5dae0fdaa",
+    "deliveryDate": "2023-03-01",
+    "startTime": "17:00",
+    "stopTime": "19:00",
+    "inHomeAvailable": false
+  }
+]

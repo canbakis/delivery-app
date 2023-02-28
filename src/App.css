@@ -1,0 +1,17 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.App {
+  min-height: 40rem;
+  width: 40rem;
+}
+
+@media (max-width: 768px) {
+  .App {
+    width: 100%;
+  }
+}

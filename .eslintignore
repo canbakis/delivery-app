@@ -1,0 +1,4 @@
+node_modules/
+.prettierrc
+.eslintrc.js
+vite-env.d.ts

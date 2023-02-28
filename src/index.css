@@ -1,0 +1,77 @@
+:root {
+  --primary-color: #58a7af;
+  --secondary-color: #718096;
+  --accent-color: #c724b1;
+  --text-color: #fff;
+  --bg-color: #3a3a59;
+  --border-color: #e2e8f0;
+  --font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  font-family: var(--font-family);
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: var(--text-color);
+  background: linear-gradient(rgb(21, 13, 107) 1.1%, rgb(188, 16, 80) 130.5%) no-repeat fixed;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.button {
+  font-family: var(--font-family);
+  font-size: 14px;
+  width: 100%;
+  background-color: transparent;
+  color: var(--text-color);
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--border-color);
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  font-weight: 500;
+}
+
+.button.primary {
+  background-color: var(--primary-color);
+}
+
+.button.accent {
+  background-color: var(--accent-color);
+}
+
+.button.disabled {
+  pointer-events: none;
+  opacity: 0.5;
+  background-color: var(--secondary-color);
+}
+
+.button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--accent-color);
+}
+
+.button:active {
+  transform: scale(0.95);
+}
+
+.slot {
+  opacity: 0.7;
+}
+
+.slot.selected,
+.slot:hover {
+  opacity: 1;
+}

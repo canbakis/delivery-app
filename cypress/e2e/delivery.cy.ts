@@ -33,7 +33,7 @@ describe('template spec', () => {
     cy.assertAllTimes();
   });
 
-  it('should be able to select a delivery date', () => {¨
+  it('should be able to select a delivery date', () => {
     cy.wait('@getDates');
     cy.get('[data-testid="delivery-date-selector"] > button').eq(1).click();
     cy.get('[data-testid="delivery-date-selector"] > button')

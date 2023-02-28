@@ -36,6 +36,8 @@ describe('template spec', () => {
 
   it('should be able to select a delivery date', () => {
     cy.wait('@getDates');
+    cy.get('[data-testid="delivery-date-selector-loading"]').should('not.exist');
+
     cy.get('[data-testid="delivery-date-selector"] > button').eq(1).click();
     cy.get('[data-testid="delivery-date-selector"] > button')
       .eq(1)
@@ -43,6 +45,8 @@ describe('template spec', () => {
   });
 
   it('should be able to select a delivery time for the selected delivery date', () => {
+    cy.get('[data-testid="delivery-date-selector"] button.selected').should('exist');
+
     cy.wait('@getTimes');
     cy.get('[data-testid="delivery-time-selector"] > button').eq(1).click();
     cy.get('[data-testid="delivery-time-selector"] > button')
